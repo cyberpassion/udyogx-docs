@@ -1,7 +1,7 @@
 {
   "index": "Introduction",
   "student/about": "Student",
-  "getting-started": {
+  "start": {
     "title": "Getting Started",
     "href": "https://app.udyogx.in/start",
     "type": "page"
