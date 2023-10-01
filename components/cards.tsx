@@ -1,5 +1,16 @@
-const Cards = (title:any) => {
-  return (<div>{title}</div>)
+import { useState } from 'react'
+import styles from './counters.module.css'
+
+function CardButton() {
+  return (
+    <div>
+      <button>
+        Clicked
+      </button>
+    </div>
+  )
 }
 
-export default Cards;
+export default function Cards() {
+  return <CardButton />
+}
