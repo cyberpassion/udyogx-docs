@@ -1,8 +1,9 @@
 {
   "index": "Introduction",
   "module/student": "Student",
-  "about": {
-    "title": "About",
+  "getting-started": {
+    "title": "Getting Started",
+    "href": "https://app.udyogx.in/start",
     "type": "page"
   },
   "contact": {
