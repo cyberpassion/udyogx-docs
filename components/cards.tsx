@@ -2,7 +2,7 @@ const Cards = (items:any) => {
   return (
     <>
       {items.map((item:any)=>{
-        return (<div>{{item.title}}</div>)
+        return (<div>{item.title}</div>)
       })}
     </>
   );
