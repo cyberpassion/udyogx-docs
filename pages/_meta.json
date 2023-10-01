@@ -1,10 +1,19 @@
 {
   "index": "Introduction",
+  "docs": {
+    "title": "Docs",
+    "type": "menu",
+    "items": {
+      "version_1_0_0": {
+        "title": "v 1.0.0",
+        "href": "/about"
+      }
+    }
+  },
   "getting_started": {
     "title": "Getting Started",
     "type": "page",
-    "href": "https://app.udyogx.in/start",
-    "newWindow": true
+    "href": "https://app.udyogx.in/start"
   },
   "contact": {
     "title": "Contact ↗",
