@@ -1,7 +1,7 @@
 const Cards = (items:any) => {
   return (
     <>
-      {items.map((item)=>{
+      {items.map((item:any)=>{
         return (<div>{{item.title}}</div>)
       })}
     </>
