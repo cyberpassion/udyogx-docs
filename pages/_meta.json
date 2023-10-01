@@ -1,9 +1,10 @@
 {
   "index": "Introduction",
-  "start": {
+  "getting_started": {
     "title": "Getting Started",
+    "type": "page",
     "href": "https://app.udyogx.in/start",
-    "type": "page"
+    "newWindow": true
   },
   "contact": {
     "title": "Contact ↗",
