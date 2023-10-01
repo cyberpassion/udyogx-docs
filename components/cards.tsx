@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 function CardButton(props) {
   const cardStyle = {
     background: 'white',
@@ -15,11 +17,11 @@ function CardButton(props) {
 
   return (
     <div style={cardStyle}>
-      <a href={props.href} style={linkStyle}>
+      <Link href={props.href} style={linkStyle}>
         <button>
           {props.title}
         </button>
-      </a>
+      </Link>
     </div>
   );
 }
