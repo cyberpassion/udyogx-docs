@@ -12,7 +12,7 @@ function CardButton(props) {
 
   const linkStyle = {
     display: 'block',
-    padding: '0.5em 1em',
+    padding: '0.6em 1em',
   };
 
   return (
