@@ -1,5 +1,5 @@
-const Cards = (items:any) => {
-  return (<div>{item.title}</div>)
+const Cards = (title:any) => {
+  return (<div>{title}</div>)
 }
 
 export default Cards;
