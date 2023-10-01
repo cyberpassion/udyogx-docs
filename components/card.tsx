@@ -1,9 +1,9 @@
-const Card = (item:any) => {
+const Cards = (title:any) => {
   return (
     <>
-      <p>{{props.text}}</p>
+      <p>{{props.title}}</p>
     </>
   );
 }
 
-export default Card;
+export default Cards;
