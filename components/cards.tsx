@@ -13,6 +13,7 @@ function CardButton(props) {
   const linkStyle = {
     display: 'block',
     padding: '0.6em 1em',
+    fontWeight: 600
   };
 
   return (
