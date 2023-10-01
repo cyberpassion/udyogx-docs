@@ -4,9 +4,9 @@
     "title": "Docs",
     "type": "menu",
     "items": {
-      "version_1_0_0": {
-        "title": "v 1.0.0",
-        "href": "/about"
+      "v1": {
+        "title": "v1",
+        "href": "/v1"
       }
     }
   },
