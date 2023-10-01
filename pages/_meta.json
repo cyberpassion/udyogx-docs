@@ -1,6 +1,6 @@
 {
   "index": "Introduction",
-  "advanced": "Student",
+  "module/student": "Student",
   "about": {
     "title": "About",
     "type": "page"
