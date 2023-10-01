@@ -1,7 +1,9 @@
-const Cards = (title:any) => {
+const Cards = (items:any) => {
   return (
     <>
-      <p>{{props.title}}</p>
+      {items.map((item)=>{
+        return (<div>{{item.title}}</div>)
+      })}
     </>
   );
 }
