@@ -1,15 +1,5 @@
 {
   "index": "Introduction",
-  "docs": {
-    "title": "Docs",
-    "type": "menu",
-    "items": {
-      "v1": {
-        "title": "v1",
-        "href": "/v1"
-      }
-    }
-  },
   "getting_started": {
     "title": "Getting Started",
     "type": "page",
