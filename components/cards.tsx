@@ -1,16 +1,21 @@
-import { useState } from 'react'
-import styles from './counters.module.css'
+import { useState } from 'react';
 
-function CardButton() {
+function CardButton(props) {
   return (
     <div>
       <button>
-        Clicked
+        {props.title}
       </button>
     </div>
-  )
+  );
 }
 
-export default function Cards() {
-  return <CardButton />
+export default function Cards({ items }: any) {
+  return (
+    <>
+      {items.map((item: any) => {
+        return <CardButton title={item.title} icon={item.icon} />;
+      })}
+    </>
+  );
 }
