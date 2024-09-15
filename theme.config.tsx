@@ -2,28 +2,27 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 import { useRouter } from 'next/router'
-import _meta from './pages/_meta.json'
 
 const config: DocsThemeConfig = {
   logo: <>
-	<img src='/images/udx-logo-yellow.png' style={{ width: '32px' }}></img><span className="nx-ml-2 nx-font-bold hidden md:inline">{_meta.brand_name}</span>
+	<img src='/images/udx-logo-yellow.png' style={{ width: '32px' }}></img><span className="nx-ml-2 nx-font-bold hidden md:inline">UdyogX</span>
   </>,
   project: {
-    link: _meta.brand_docs_github_link,
+    link: "https://github.com/cyberpassion/udyogx-docs",
   },
   chat: {
-    link: _meta.brand_support_link,
+    link: "https://support.udyogx.in",
   },
-  docsRepositoryBase: _meta.brand_docs_github_link,
+  docsRepositoryBase: "https://github.com/cyberpassion/udyogx-docs",
   footer: {
-    text: `${_meta.brand_name} Docs`,
+    text: "UdyogX Docs",
   },
   // Remove default - Nextra from end of title to our own
   useNextSeoProps() {
     const { asPath } = useRouter()
     if (asPath !== '/') {
       return {
-        titleTemplate: `%s – ${_meta.brand_name}`
+        titleTemplate: "%s – UdyogX"
       }
     }
   }
