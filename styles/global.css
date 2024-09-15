@@ -9,6 +9,14 @@ body {
 .nextra-content {
 	font-size: 14px;
 }
+.nextra-content img,
+.nextra-content iframe {
+	border-radius: 0.5em;
+	border: 1px solid #7e93a83d;
+	padding: 0.25em;
+	box-shadow: 1px 2px 3px rgba(0,0,0,0.1);
+	margin-top: 0.25em;
+}
 .nx-font-bold {
 	font-weight: 900!important;
 }
@@ -18,9 +26,6 @@ body {
 }
 .nx-text-sm {
 	font-size: 0.825rem!important;
-}
-.nx-text-gray-500 {
-	color: #333!important;
 }
 .nx-rounded {
 	border-radius: 0.5rem!important;
