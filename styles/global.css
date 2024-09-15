@@ -10,3 +10,20 @@ body {
 	background: yellow!important;
 	color: black!important;
 }
+.nx-text-sm {
+	font-size: 0.825rem!important;
+}
+.nx-text-gray-500 {
+	color: #333!important;
+}
+.nx-py-1\.5 {
+	padding-top: 0.5rem!important;
+	padding-bottom: 0.5rem!important;
+}
+.nx-px-2 {
+	padding-left: 0.75rem!important;
+	padding-right: 0.75rem!important;
+}
+.nx-rounded {
+	border-radius: 0.5rem!important;
+}
