@@ -1,14 +1,38 @@
 {
   "index": "Introduction",
   "getting_started": {
-    "title": "Getting Started",
+    "title": "Create Account",
     "type": "page",
-    "href": "https://app.udyogx.in/start"
+    "href": "https://marketplace.udyogx.in"
   },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://support.udyogx.in/contact",
-    "newWindow": true
+  "company": {
+    "title": "Company",
+    "type": "menu",
+    "items": {
+      "about": {
+        "title": "About ↗",
+		"type": "page",
+        "href": "https://marketplace.udyogx.in",
+		"newWindow": true
+      },
+	  "login": {
+		"title": "Login ↗",
+		"type": "page",
+		"href": "https://app.udyogx.in/login",
+		"newWindow": true
+	  },
+      "support": {
+		"title": "Support ↗",
+		"type": "page",
+		"href": "https://support.udyogx.in",
+		"newWindow": true
+	  },
+	  "contact": {
+		"title": "Contact ↗",
+		"type": "page",
+		"href": "https://support.udyogx.in/contact",
+		"newWindow": true
+	  }
+    }
   }
 }

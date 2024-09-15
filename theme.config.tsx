@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 
 const config: DocsThemeConfig = {
   logo: <>
-	<img src='/images/udx-logo-yellow.png' style={{ width: '32px' }}></img><span className="nx-ml-2 nx-font-bold hidden md:inline">UdyogX</span>
+	<img src='/images/udx-logo-yellow.png' style={{ width: '32px' }}></img><span className="nx-ml-2 nx-font-bold hidden md:inline">UdyogX Docs</span>
   </>,
   project: {
     link: "https://github.com/cyberpassion/udyogx-docs",
