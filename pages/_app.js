@@ -1,6 +1,6 @@
 // pages/_app.js
 import '../styles/global.css';
-import { Inter } from 'next/font';
+import { Inter } from '@next/font/google';
 
 const inter = Inter({
   weight: ['400', '500', '700', '900'], // Choose the weights you want to include
