@@ -1,5 +1,9 @@
 {
   "index": "Introduction",
+  "brand_name": "UdyogX",
+  "brand_app_link": "https://app.udyogx.in",
+  "brand_support_link": "https://support.udyogx.in",
+  "brand_docs_github_link": "https://github.com/cyberpassion/udyogx-docs",
   "getting_started": {
     "title": "Getting Started",
     "type": "page",
@@ -8,7 +12,7 @@
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://udyogx.in/ticket",
+    "href": "https://support.udyogx.in/contact",
     "newWindow": true
   }
 }

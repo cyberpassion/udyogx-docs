@@ -1,0 +1,12 @@
+/* styles/global.css */
+body {
+	font-family: 'Inter', sans-serif;
+}
+
+.nx-font-bold {
+	font-weight: 900!important;
+}
+.nx-bg-primary-100 {
+	background: yellow!important;
+	color: black!important;
+}

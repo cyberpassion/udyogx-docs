@@ -1,7 +1,7 @@
 {
-  "name": "nextra-docs-template",
+  "name": "udyogx-documentation",
   "version": "0.0.1",
-  "description": "Nextra docs template",
+  "description": "UdyogX Documentation",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,15 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+    "url": "git@github.com:cyberpassion/udyogx-docs.git"
   },
-  "author": "Shu Ding <g@shud.in>",
+  "author": "Ravi Sharma <ravi@cyberpassion.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
+    "url": "https://github.com/cyberpassion/udyogx-docs/issues"
   },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "homepage": "https://github.com/cyberpassion/udyogx-docs#readme",
   "dependencies": {
+    "@next/font": "^14.2.11",
     "next": "^13.0.6",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
