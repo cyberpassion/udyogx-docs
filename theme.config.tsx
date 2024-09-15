@@ -10,9 +10,9 @@ const config: DocsThemeConfig = {
   project: {
     link: "https://github.com/cyberpassion/udyogx-docs",
   },
-  chat: {
+  /*chat: {
     link: "https://support.udyogx.in",
-  },
+  },*/
   docsRepositoryBase: "https://github.com/cyberpassion/udyogx-docs",
   footer: {
     text: "UdyogX Docs",

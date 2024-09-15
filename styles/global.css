@@ -9,6 +9,10 @@ body {
 .nextra-content {
 	font-size: 14px;
 }
+.nextra-search input {
+	background: #fbfcff;
+    border: 1px solid #ebedf3;
+}
 .nextra-content img,
 .nextra-content iframe {
 	border-radius: 0.5em;
