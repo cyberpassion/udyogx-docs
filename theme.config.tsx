@@ -6,7 +6,7 @@ import _meta from './pages/_meta.json'
 
 const config: DocsThemeConfig = {
   logo: <>
-	<img src='../images/udx-logo-yellow.png' style={{ width: '32px' }}></img><span className="nx-ml-2 nx-font-bold hidden md:inline">{_meta.brand_name}</span>
+	<img src='/images/udx-logo-yellow.png' style={{ width: '32px' }}></img><span className="nx-ml-2 nx-font-bold hidden md:inline">{_meta.brand_name}</span>
   </>,
   project: {
     link: _meta.brand_docs_github_link,

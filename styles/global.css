@@ -3,6 +3,12 @@ body {
 	font-family: 'Inter', sans-serif;
 }
 
+.nx-max-w-\[90rem\] {
+	max-width: 80rem!important;
+}
+.nextra-content {
+	font-size: 14px;
+}
 .nx-font-bold {
 	font-weight: 900!important;
 }
@@ -15,14 +21,6 @@ body {
 }
 .nx-text-gray-500 {
 	color: #333!important;
-}
-.nx-py-1\.5 {
-	padding-top: 0.5rem!important;
-	padding-bottom: 0.5rem!important;
-}
-.nx-px-2 {
-	padding-left: 0.75rem!important;
-	padding-right: 0.75rem!important;
 }
 .nx-rounded {
 	border-radius: 0.5rem!important;
