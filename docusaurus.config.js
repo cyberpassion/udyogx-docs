@@ -127,19 +127,6 @@ const config = {
 							},
 						],
 					},
-					{
-						title: "More",
-						items: [
-							{
-								label: "Blog",
-								to: "/blog",
-							},
-							{
-								label: "GitHub",
-								href: "https://github.com/cyberpassion/udyogx-docs",
-							},
-						],
-					},
 				],
 				copyright: `Copyright © ${new Date().getFullYear()} UdyogX.`,
 			},
