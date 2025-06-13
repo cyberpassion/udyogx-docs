@@ -1,2 +1,3 @@
-.next
-node_modules
+# Node.js dependencies
+node_modules/
+.docusaurus/
