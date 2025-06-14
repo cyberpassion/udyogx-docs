@@ -70,6 +70,11 @@
 	font-size: 14px !important;
 }
 
+/* Set menu icon size */
+.menu__link--sublist-caret:after {
+	background-size: 1.5em;
+}
+
 /* Doc search button */
 .DocSearch-Button {
 	background: none;
