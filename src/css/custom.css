@@ -49,6 +49,17 @@
 	border-bottom: 1px solid black;
 }
 
+/* Navbar item font size */
+.navbar__item {
+	font-size: 14px;
+}
+
+.navbar__link--active,
+.breadcrumbs__item--active .breadcrumbs__link {
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+
 /* Adding padding to right in menubar */
 .menu_SIkG {
 	padding-right: 0.5em;
@@ -57,4 +68,11 @@
 /* Set navbar menu link font size */
 .menu__link {
 	font-size: 14px !important;
+}
+
+/* Doc search button */
+.DocSearch-Button {
+	background: none;
+	border: 1px solid #dee1e894;
+	border-radius: 4px;
 }
