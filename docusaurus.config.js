@@ -50,7 +50,7 @@ const config = {
 					sidebarPath: "./sidebars.js",
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl: "https://github.com/cyberpassion/udyogx-docs/tree/main/packages/create-docusaurus/templates/shared/",
+					editUrl: "https://github.com/cyberpassion/udyogx-docs/tree/main/",
 				},
 				blog: {
 					showReadingTime: true,
@@ -60,7 +60,7 @@ const config = {
 					},
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl: "https://github.com/cyberpassion/udyogx-docs/tree/main/packages/create-docusaurus/templates/shared/",
+					editUrl: "https://github.com/cyberpassion/udyogx-docs/tree/main/",
 					// Useful options to enforce blogging best practices
 					onInlineTags: "warn",
 					onInlineAuthors: "warn",
@@ -92,15 +92,30 @@ const config = {
 						label: "Docs",
 					},
 					{
-						href: "https://github.com/cyberpassion/udyogx-docs",
-						label: "GitHub",
+						href: "#",
+						label: "Support",
+						position: "left",
+					},
+					{
+						href: "https://www.docs.api.udyogx.in/docs/udyogx",
+						label: "API Docs",
+						position: "right",
+					},
+					{
+						href: "https://marketplace.udyogx.in",
+						label: "Book a Demo",
+						position: "right",
+					},
+					{
+						href: "https://marketplace.udyogx.in",
+						label: "Signup",
 						position: "right",
 					},
 				],
 			},
 			footer: {
 				style: "dark",
-				links: [
+				/*links: [
 					{
 						title: "Docs",
 						items: [
@@ -127,7 +142,7 @@ const config = {
 							},
 						],
 					},
-				],
+				],*/
 				copyright: `Copyright © ${new Date().getFullYear()} UdyogX.`,
 			},
 			prism: {
